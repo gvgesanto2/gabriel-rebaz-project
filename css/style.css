@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Setting the value of 1rem */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 56.25%; 
+  } 
+}
+@media only screen and (max-width: 62.5em) {
+  html {
+    font-size: 52.25%; 
+  } 
+}
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  } 
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 1.6rem; /* Setting the body font-size back to the default 16px */
+
+  background-color: lightgray;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  min-height: 7.5rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blueviolet;
+  width: 100%;
+
+  margin-bottom: 8rem;
+}
+
+#header-img {
+  display: inline-block;
+  width: 6rem;
+  height: 6rem; 
+
+  margin: 2rem 0;
+
+  background-color: white;
+
+  border-radius: 50%;
+}
+
+#nav-bar {
+  display: flex;
+
+  padding: 1rem;
+}
+
+#nav-bar ul {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+
+  font-weight: 600;
+  font-size: 2rem;
+
+  margin: 0 5rem;
+}
+
+.container {
+  margin-top: 12rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#form {
+  margin-top: 4rem;
+}
+
+#submit {
+  background-color: darkmagenta;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+
+  border-color: rgb(65, 3, 65);
+
+  margin-left: 2rem;
+
+}
+
+#email {
+  padding: 1rem 3rem;
+
+  border-radius: 1rem;
+  
+
+  /* border-color: darkmagenta; */
+  border: none;
+}
+
+
